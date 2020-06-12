@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/doraemon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="fade"
+        app:srcCompat="@drawable/doraemon" />
+
+    <ImageView
+        android:id="@+id/nobita"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:onClick="fade"
+        app:srcCompat="@drawable/nobita" />
+
+</RelativeLayout>
